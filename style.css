@@ -1,0 +1,325 @@
+/* リセットcss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* リセットcss終了 */
+
+
+body {
+}
+.container{
+  background-color:black;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+ font-weight:bold;
+ color:white;
+}
+.h-info{
+  text-align:center;
+}
+.h-title-img{
+  width:100%;
+}
+.h-h1{
+  font-size:20px;
+  color:white;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI semibold", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic", "Segoe UI", Verdana, Meiryo, sans-serif;
+  font-weight:900;
+  font-size:30px;
+  letter-spacing: .1em;
+} 
+.h-title-span{
+  padding:0 5px;
+  font-weight:700;
+}
+.h-info{
+  padding:10px 0;
+}
+.h-info-p{
+  font-size:18px;
+  font-weight:normal;
+  letter-spacing:.1em;
+  padding:5px 0;
+}
+.h-i-span{
+  border:1px solid white;
+  padding:5px;
+  margin:0 5px;
+  font-weight:bold;
+}
+/* メイン */
+.m-menu{
+  display:flex;
+
+  padding:10px;
+  margin-bottom:-20px;
+  position:relative;
+  
+}
+.m-ul{
+  display:flex;
+}
+.m-li{
+  text-align:center;
+}
+/* ギザギザ円 */
+/* #gizagiza a , #gizagiza a:after , #gizagiza a:before , #gizagiza a span {
+  content:"";
+  width:100px;
+  height:100px;
+  background-color:red;
+  position:absolute;
+  top:0px;
+}
+#gizagiza , #gizagiza a , #gizagiza a:after , #gizagiza a:before {
+  -webkit-transform: rotate(22.5deg);
+  -moz-transform: rotate(22.5deg);
+}
+#gizagiza a span {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  text-align: center;
+  z-index: 999;
+  line-height: 100px;
+  color: #fff;
+}
+#gizagiza {
+  position:relative;
+  width:100px;
+  height:100px;
+  background-color:red;
+  margin:20px 0 0 20px ;
+} */
+/* ギザギザ円 */
+/* テイクアウトメニュー */
+.m-menu-order{
+  /* text-align:center; */
+  margin-bottom:-50px;
+  position: relative;
+  left:60px;
+}
+.m-menu-top{
+  font-size:40px;
+  font-family: 'Caveat', cursive;
+}
+.m-menu-center{
+  font-size:200px;
+  font-family: 'Bangers', cursive;
+  position:relative;
+  bottom:70px;
+}
+.m-menu-bottom{
+  position:relative;
+  bottom:130px;
+  left:40px;
+  font-size:20px;
+  letter-spacing:1em;
+  
+}
+.m-menu-bottom2{
+  letter-spacing: 2px;
+  position: relative;
+  left:30px;
+}
+.m-discount{
+  position:relative;
+  bottom:130px;
+}
+.m-top-img{
+  border-radius:50%;
+  width:100%;
+}
+.m-li-bottom{
+  padding:5px 15px;
+  font-size:15px;
+  white-space: nowrap;
+}
+.m-chikin{
+  position:relative;
+  right:30px;
+}
+/* .m-menulist{
+  border-bottom:1px solid white;
+} */
+.m-menu2{
+  position:relative;
+  bottom:50px;
+  border-top:1px solid white;
+  padding-top:15px;
+  margin-bottom:-70px;
+}
+.m-ul2{
+  position:relative;
+  /* right:50px; */
+  margin-top:20px;
+}
+.m-li2{
+  border-bottom:dashed 1px gray;
+  padding:11px;
+  max-width:470px;
+  letter-spacing:2px;
+  font-size:20px;
+}
+.m-span2{
+  border:1px solid white;
+  background-color:white;
+  color:black;
+  padding:8px;
+  border-radius:5px;
+  font-weight:bold;
+  margin-right:15px;  
+}
+.m-menulist-img1{
+  position:relative;
+  bottom:300px;
+  left:550px;
+  margin-bottom:-100px;
+  
+}
+.m-menulist-img2{
+  position:relative;
+  bottom:170px;
+  left:280px;
+  margin-bottom:-100px;
+}
+.m-menulist-img3{
+  position:relative;
+  bottom:160px;
+  left:320px;
+  margin-bottom:-150px;
+  z-index:100;
+}
+.m-ul3{
+  position:relative;
+  /* top:20px; */
+}
+.m-li3{
+  border-bottom:dashed 1px gray;
+  padding:10px;
+  text-align:left;
+
+}
+.m-li-img-c{
+  position:relative;
+  top:20px;
+}
+.m-li3-menu{
+  text-align:center;
+  background-color:#FFFF99;
+  color:black;
+  border-radius:5px;
+}
+.summary-list {
+  margin-top:-120px;
+}
+.m-li3-p{
+  font-size:10px;
+}
+.h-h3{
+  background:#FFFF99;
+  color:black;
+  font-weight:900;
+  text-align:center;
+  margin:0;
+  padding:0;
+  height:60px;
+  line-height:60px;
+  /* letter-spacing:2px; */
+  font-size:30px;
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  border-radius:5px;
+  margin-bottom:15px;
+  letter-spacing: 5px;
+}
+.h3-span{
+  margin-left:20px;
+  font-size:20px;
+  font-weight:900;
+}
+.tel_num{
+  margin-right:20px;
+  font-size:45px;
+  position:relative;
+  top:5px;
+  letter-spacing:10px;
+}
+.tel_num::before {
+  display: inline-block;
+  transform: scaleX(-1);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "f095";
+}
+.m-ul4{
+  display:flex;
+  padding-top:15;
+  position: relative;
+  left:20px;
+}
+.m-li4{
+  font-size:25px;
+  letter-spacing:3px;
+}
+.m-call{
+  font-size:15px;
+  
+}
+br {
+    content: “”;
+  }
+  br:after {
+  margin-right: -.333em;
+  content:””;
+  }
+  .li-bottom{
+    position:relative;
+    bottom:10px;
+  }
+  .li-right{
+    position:relative;
+    right:70px;
+  }
